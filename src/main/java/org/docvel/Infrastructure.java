@@ -7,10 +7,10 @@ public class Infrastructure {
 
     /**
      * Метод создаёт строку из указанного количества чередующихся символов
-     * @param num - количество символов
-     * @param c1  - первый символ
-     * @param c2  - второй символ
-     * @return (String) - строка
+     * @param num количество символов
+     * @param c1 первый символ
+     * @param c2 второй символ
+     * @return String строка
      */
     public static String stringAlternatingChar(int num, char c1, char c2) {
         StringBuilder strRes = new StringBuilder();
