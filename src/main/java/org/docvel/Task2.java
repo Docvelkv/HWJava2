@@ -6,6 +6,6 @@ package org.docvel;
  */
 public class Task2 {
     public static void main(String[] args) {
-
+        Infrastructure.createFileWithText("file1", "TEXT", 100);
     }
 }
